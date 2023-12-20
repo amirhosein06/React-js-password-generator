@@ -8,12 +8,15 @@ function App() {
   return (
     <div className='container'>
      <div className='preview'>
-      <input type='text' disabled value='1324hdjndxnghgthgfhfhhfhmhjgjjggjjjhrn'/>
+      <input type='text' disabled value=''/>
       <button>{iconlink}</button>
      </div>
      <div className='setting'>
-      d
+      <div>length:<input type='number' value='10'/></div>
+      <div>A-z<input type='checkbox'/></div>
+      <div>1-9<input type='checkbox'/></div>
       </div>
+      <button className='generatebtn'>Generate</button>
     </div>
   );
 }
